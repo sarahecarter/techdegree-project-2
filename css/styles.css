@@ -1,0 +1,38 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* --Header and Nav Styles --*/
+
+.main-header {
+    display: block;
+}
+
+.main-nav {
+    list-style-type: none;
+}
+
+.name,
+.main-nav a {
+    display: block;
+}
+
+/* --Intro Styles --*/
+.profile-img {
+    width: 80%;
+}
+
+/* --Portfolio Styles --*/
+.portfolio-img {
+    width: 100%;
+}
+
+.portfolio {
+    background-color: white;
+}
+
+/* --Contact Styles --*/
+
+/* --Media Queries --*/
