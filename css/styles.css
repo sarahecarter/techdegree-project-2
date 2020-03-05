@@ -45,12 +45,12 @@ p {
 
 .main-nav li {
     margin-bottom: 5px;
-    background: white;
+    background: gray;
 }
 
 
 .main-nav a:hover {
-    color: pink;
+    color: lightblue;
     transition: 0.3s;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 .portfolio {
-    background-color: white;
+    background-color: gray;
     text-align: center;
     margin: 0;
     padding: 20px 10px;
@@ -81,7 +81,7 @@ p {
 .skills {
     text-align: center;
     background: white;
-    margin-top: 5px;
+    margin: 10px 5px;
     padding: 10px;
 }
 
