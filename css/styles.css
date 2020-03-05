@@ -1,27 +1,65 @@
 *{
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
-    text-align: center;
+}
+
+body {
+    background: #DFE7EE;
+    padding: 20px 2px;
+    margin: 10px 10px;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: black;
 }
 
 /* --Header and Nav Styles --*/
 
 .main-header {
     display: block;
+    margin: 0;
 }
 
 .main-nav {
     list-style-type: none;
+    background: white;
+    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 0;
+
 }
 
 .name,
 .main-nav a {
     display: block;
+    text-align: center;
+}
+
+.main-nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin: 10px auto;
+    padding: 5px;
+    display: block;
+}
+
+.main-nav a:hover {
+    color: pink;
+    transition: 0.3s;
 }
 
 /* --Intro Styles --*/
 .profile-img {
     width: 80%;
+}
+
+.banner {
+    margin: 0;
+    text-align: center;
 }
 
 /* --Portfolio Styles --*/
@@ -31,8 +69,43 @@
 
 .portfolio {
     background-color: white;
+    text-align: center;
+    margin: 0;
 }
 
 /* --Contact Styles --*/
+.contact {
+    text-align: center;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: gray;
+}
+
+/* --Footer--*/
+.footer {
+    border-top: 1px solid slategray;
+}
+
+.footer-name {
+    float: left;
+}
+
+.to-top {
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 18.72px 0px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* --Clearfix --*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* --Media Queries --*/
