@@ -177,11 +177,12 @@ p {
         margin: 10px;
     }
 
+
     .marketing, 
     .search {
         width: 50%;
         float: left;
-        padding-left: 10px;
+        padding: 2px 5px;
 
 
     }
@@ -190,7 +191,7 @@ p {
     .map {
         width: 50%;
         float: left;
-        padding-left: 10px;
+        padding: 2px 5px;
 
     }
 
@@ -198,7 +199,7 @@ p {
     .calculator {
         width: 50%;
         float: left;
-        padding-left: 10px;
+        padding: 2px 5px;
 
     }
 
@@ -235,7 +236,48 @@ p {
 }
 
 
+@media (min-width: 1024px) {
+
+    .name {
+        float:left;
+        padding-bottom: 40px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .main-nav {
+        display: inline-block;
+        float: right;
+        margin-top: 40px;
+    }
 
 
+    .marketing, 
+    .search {
+        width: 33%;
+        float: left;
+        padding: 6px;
 
-@media (min-width: 1024px) {}
+
+    }
+
+    .travel,
+    .map {
+        width: 33%;
+        float: left;
+        padding: 6px;
+
+    }
+
+    .photos,
+    .calculator {
+        width: 33%;
+        float: left;
+        padding: 6px;
+    }
+
+    .contact {
+        padding: 10px 200px;
+    }
+
+}
