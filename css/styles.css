@@ -76,6 +76,15 @@ p {
     padding: 20px 10px;
 }
 
+/* --Skills Styles --*/
+
+.skills {
+    text-align: center;
+    background: white;
+    margin-top: 5px;
+    padding: 10px;
+}
+
 /* --Contact Styles --*/
 .contact {
     text-align: center;
@@ -103,6 +112,19 @@ p {
     color: rgb(0, 0, 0);
 }
 
+.main-nav-bottom li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+
+.main-nav-bottom a:hover {
+    color: pink;
+    transition: 0.3s;
+}
 
 /* --Clearfix --*/
 .clearfix::after {
@@ -112,6 +134,12 @@ p {
 }
 
 /* --Media Queries --*/
+@media (max-width: 768px){
+    .main-nav-bottom {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
 
     .main-nav li {
@@ -120,13 +148,90 @@ p {
 
     .main-nav {
         text-align: center;
-        margin: 50px;
     }
 
     .name {
+        font-size: 3em;
+        margin-bottom: 5px;
+    }
+
+    .profile-img {
+        float: right;
+        width: 40%;
+        padding-bottom: 10px;
+    }
+
+    .intro-text {
+        float: left;
+        width: 50%;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .banner {
+        margin: 10px;
+    
+    }
+
+    .portfolio {
+        margin: 10px;
+    }
+
+    .marketing, 
+    .search {
+        width: 50%;
+        float: left;
+        padding-left: 10px;
+
 
     }
 
+    .travel,
+    .map {
+        width: 50%;
+        float: left;
+        padding-left: 10px;
+
+    }
+
+    .photos,
+    .calculator {
+        width: 50%;
+        float: left;
+        padding-left: 10px;
+
+    }
+
+    .skills p {
+        float: left;
+        width: 60%;
+        padding: 60px 20px;
+        text-align: left;
+
+    }
+
+    .comp-img {
+        float: right;
+        width: 30%;
+        padding-bottom: 30px;
+        padding-right: 20px;
+    }
+
+    .contact {
+        padding: 10px 50px;
+    }
+
+    .to-top {
+        display: none;
+    }
+
+    .main-nav-bottom li {
+        display: inline-block;
+    }
+
+    container {
+        float:right;
+    }
 }
 
 
