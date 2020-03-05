@@ -230,7 +230,7 @@ p {
         display: inline-block;
     }
 
-    container {
+    .container {
         float:right;
     }
 }
