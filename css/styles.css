@@ -19,7 +19,6 @@ p {
 /* --Header and Nav Styles --*/
 
 .main-header {
-    display: block;
     margin: 0;
 }
 
@@ -29,12 +28,10 @@ p {
     margin-bottom: 20px;
     font-size: 1em;
     padding: 0;
-
 }
 
 .name,
 .main-nav a {
-    display: block;
     text-align: center;
 }
 
@@ -46,6 +43,11 @@ p {
     padding: 5px;
     display: block;
 }
+
+.main-nav li {
+    margin-bottom: 10px;
+}
+
 
 .main-nav a:hover {
     color: pink;
