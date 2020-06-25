@@ -45,9 +45,9 @@ p {
 
 .main-nav li {
     margin-bottom: 5px;
-    background: lightgray;
+    background: white;
+    
 }
-
 
 .main-nav a:hover {
     color: lightblue;
@@ -70,7 +70,7 @@ p {
 }
 
 .portfolio {
-    background-color: gray;
+    background-color: white;
     text-align: center;
     margin: 0;
     padding: 20px 10px;
